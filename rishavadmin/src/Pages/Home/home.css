@@ -1,0 +1,7 @@
+.mainpage{
+    flex:4;
+}
+.homeWidgets{
+    display: flex;
+    margin: 1.5rem;
+}

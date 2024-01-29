@@ -1,0 +1,27 @@
+.ProductComponent{
+    flex: 4;
+}
+.productList{
+    display: flex;
+    align-items: center;
+}
+.productImg{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 0.7rem;
+}
+.productEdit{
+   border: none;
+   border-radius: 0.6rem;
+   background-color: #3bb077;
+   margin-right: 1rem;
+   color: white;
+   padding: 0.4rem 0.7rem;
+   cursor: pointer;
+}
+.productDeleteButton{
+    color: red;
+    cursor: pointer;
+}

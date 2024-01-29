@@ -1,0 +1,59 @@
+.userdetails {
+    flex: 1;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    -webkit-box-shadow: 0px 2px 7px 2px rgba(222, 222, 222, 1);
+    -moz-box-shadow: 0px 2px 7px 2px rgba(222, 222, 222, 1);
+    box-shadow: 0px 2px 7px 2px rgba(222, 222, 222, 1);
+
+    font-size: 1rem;
+}
+.userWrapper{
+    display: flex;
+    flex-direction: column;
+    
+}
+.usermenu{
+    margin-bottom: 1rem;
+    
+}
+.userlistTitle{
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #aaaaaa;
+}
+.userlist{
+    list-style: none;
+    padding: 0 0.1rem;
+
+    .userlistItem{
+        display: flex;
+        align-items: center;
+        padding: 0.4rem 0.2rem;
+        border-radius: 0.6rem;
+        margin-bottom: 1rem;
+    }
+    .userlistContent{
+        padding-left: 0.3rem;
+    }
+}
+.usermembers{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-bottom: 1.3rem;
+}
+.usermemberName{
+    display: flex;
+    flex-direction: column;
+}
+.usermemberImg{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.userIcons{
+    margin-right: 1rem;
+}

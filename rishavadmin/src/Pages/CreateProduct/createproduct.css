@@ -1,0 +1,40 @@
+.createProductcontainer{
+    flex:4;
+    margin-left: 1rem;
+}
+
+.createproductForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+.createproductEditDetails{
+    display: flex;
+    color: gray;
+    font-weight: 600;
+    flex-direction: column;
+    width: 15rem;
+    margin-top: 1.4rem;
+    padding: 2rem;
+}
+.createproducttext{
+    height: 2.6rem;
+    padding-left: 0.5rem;
+}
+.newproductSelect{
+    height: 2.6rem;
+    padding-left: 0.5rem;
+}
+.createproductEditDetails>label{
+    margin-bottom: 1rem;
+}
+.createproductformCreate{
+    margin-top: 2rem;
+    padding: 0.7rem;
+    border: none;
+    color: white;
+    background-color: darkblue;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    height: 3rem;
+    align-self: center;
+}

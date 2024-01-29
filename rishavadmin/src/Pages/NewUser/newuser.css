@@ -1,0 +1,47 @@
+.newuser{
+    flex: 4;
+    
+}
+.newuserform{
+    display: flex;
+    flex-wrap: wrap;
+    color: #555;
+}
+.newuserDetails{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.newuserDetails>label{
+    margin-bottom: 0.6rem;
+}
+.newtext{
+    height: 2.3rem;
+    border-radius: 0.3rem;
+    border: 1px solid #555;
+}
+.newuserSelect{
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #555;
+}
+.userGender>input{
+    margin-right: 0.6rem;
+    margin-top: 0.5rem;
+}
+.userGender>label{
+    margin-right: 0.6rem;
+}
+.newUserButton{
+    width: 14rem;
+    border: none;
+    color: white;
+    background-color: darkblue;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    margin-left: 0.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}

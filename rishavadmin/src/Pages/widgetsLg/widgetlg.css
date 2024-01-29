@@ -1,0 +1,60 @@
+.widgetlg{
+    flex:2;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    -webkit-box-shadow: 0px 2px 7px 2px rgba(222, 222, 222, 1);
+    -moz-box-shadow: 0px 2px 7px 2px rgba(222, 222, 222, 1);
+    box-shadow: 0px 2px 7px 2px rgba(222, 222, 222, 1);
+}
+.widgetLgTitle{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.widgetLgUserPic{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.widgetLgUserusername{
+    display: flex;
+    align-items: center;
+    
+}
+.widgetLgWrapper{
+    width: 100%;
+    border-spacing: 2rem;
+}
+.widgetLgth{
+    text-align: left;
+}
+.widgetButton{
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    border: none;
+    cursor: pointer;
+}
+.Approved{
+   background-color: #e5faf2;
+   color: #3bb077;
+}
+.Declined{
+    background-color: #fff0f1;
+    color: #d95087;
+ }
+ .Pending{
+    background-color: #ebf1fe;
+    color: #2a7ade;
+ }
+.widgetLgName{
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+.widgetLgDate{
+    color: #555;
+    font-weight: 300;
+}
+.widgetLgAmt{
+    color: #555;
+    font-weight: 300;
+}

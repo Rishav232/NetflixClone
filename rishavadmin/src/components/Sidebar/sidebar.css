@@ -1,0 +1,46 @@
+.sidebar{
+   flex:1;
+   color: #555;
+   height: calc(100vh - 50px);
+   position: sticky;
+   top: 50px;
+   background-color: rgb(251, 251, 255);
+}
+
+.sidebarWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+.menu{
+    margin-bottom: 1rem;
+    
+}
+.listTitle{
+    margin-bottom: 0.6rem;
+    font-weight: 700;
+    color: #aaaaaa;
+}
+ul{
+    list-style: none;
+    padding: 0 0.9rem;
+
+    .listItem{
+        display: flex;
+        align-items: center;
+        padding: 0.4rem 0.2rem;
+        cursor: pointer;
+        border-radius: 0.6rem;
+        
+    }
+    .listContent{
+        padding-left: 0.3rem;
+        text-decoration: none;
+    }
+    .listItem.active,
+    .listItem:hover{
+        background-color: rgb(187, 187, 255);
+        text-decoration: none;
+        
+    }
+}

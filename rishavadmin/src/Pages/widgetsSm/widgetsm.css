@@ -1,0 +1,55 @@
+.widgetsm {
+    flex: 1;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    -webkit-box-shadow: 0px 2px 7px 2px rgba(222, 222, 222, 1);
+    -moz-box-shadow: 0px 2px 7px 2px rgba(222, 222, 222, 1);
+    box-shadow: 0px 2px 7px 2px rgba(222, 222, 222, 1);
+}
+
+.widgetWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 1.3rem 0;
+}
+.members{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.7rem 0px;
+}
+.memberName{
+    display: flex;
+    flex-direction: column;
+}
+.memberPic{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.widgetTitle{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.memberbutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e8e8ff;
+    border-radius: 0.7rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    color: #555;
+}
+.memberAction{
+    margin-left: 0.1rem;
+    
+}
+.designation{
+    color: #555;
+}
+.name{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
