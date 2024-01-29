@@ -1,1 +1,1 @@
-Netflix Clone MERN STACK Project 
+Netflix Clone MERN Stack Project 
